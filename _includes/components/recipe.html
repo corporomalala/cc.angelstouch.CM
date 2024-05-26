@@ -1,0 +1,20 @@
+        <!--================Special Recipe Area =================-->
+        <section class="special_recipe_area">
+        	<div class="container">
+        		<div class="special_recipe_slider owl-carousel">{% for i in (1..4) %}
+        			<div class="item">
+        				<div class="media">
+        					<div class="d-flex">
+        						<img src="img/recipe/recipe-1.png" alt="">
+        					</div>
+        					<div class="media-body">
+        						<h4>Special Recipe</h4>
+        						<p>Made with the finest vanilla extract and topped with our velvety smooth buttercream frosting, these recipes are a delight in every kitchen.</p>
+        						<a class="w_view_btn" href="/recipe.html">View Recipe {{ forloop.index }}</a>
+        					</div>
+        				</div>
+        			</div>{% endfor %}
+        		</div>
+        	</div>
+        </section>
+        <!--================End Special Recipe Area =================-->
